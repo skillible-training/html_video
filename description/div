@@ -1,0 +1,12 @@
+Q. What is Div?
+Ans.
+
+<div>
+
+- The <div> tag defines a division or a section in an HTML document
+            or
+  The <div> tag	is known as Division tag.
+			
+- The <div> element is often used as a container for other HTML elements.
+- By default, browsers always place a line break before and after the <div>element.
+  However, this can be changed with CSS.
