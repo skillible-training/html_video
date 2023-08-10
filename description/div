@@ -1,4 +1,4 @@
-Q. What is Div?
+1. Q. What is Div?
 Ans.
 
 <div>
@@ -10,6 +10,22 @@ Ans.
 - The <div> element is often used as a container for other HTML elements.
 - By default, browsers always place a line break before and after the <div>element.
   However, this can be changed with CSS.
+
+
+
+
+2. Q. 
+
+Top 3 ways to center a DIV with CSS
+
+The div tag in HTML is used to define a section or container. CSS is used to style a perticular division. 
+A division can be centered using diffrent methods.
+
+Here are some methods for centering a division using CSS.
+
+1- Classic methods  Ex- classic-method.html
+2- Grid methods    Ex- grid-method.html
+3- Flex Method     Ex- flex-method.html or div-flexbox2.html
 
 
 

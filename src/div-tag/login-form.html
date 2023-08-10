@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <style>
+         .loginform {
+         padding: 10px;
+         border-radius: 10px;
+         width: 300px;
+         margin-top: 10px;
+         background-color: #f1f1f1;
+         border: 1px solid #ceccce;
+         font-family: sans-serif;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         border: 1px solid #000;
+         }
+         .loginform input{
+         font-size: 1rem;
+         font-weight: 400;
+         line-height: 1.5;
+         background-clip: padding-box;
+         border: 1px solid #ced4da;
+       
+         border-radius: .25rem;
+         }
+         .formheading {
+         color: black;
+         padding: 4px;
+         text-align: center;
+         }
+         .sub{  
+         background-color:#6612f0;  
+         padding: 7px 40px 7px 40px; 
+         border: 1px solid #6612f0; 
+         color:white;  
+         font-weight:bold;  
+         margin-left:70px;  
+         border-radius:5px; 
+         margin-top: 12px; 
+         } 
+      </style>
+   </head>
+   <body>
+      <div class="loginform">
+         <h3 class="formheading">Please Login</h3>
+         <form action="" method="post">
+            <table>
+               <tr>
+                  <td>Email:</td>
+                  <td><input type="email" name="email"/></td>
+               </tr>
+               <tr>
+                  <td>Password:</td>
+                  <td><input type="password" name="password"/></td>
+               </tr>
+               <tr>
+                  <td colspan="2" style="text-align:center"><input class="sub" type="submit" value="login"/></td>
+               </tr>
+            </table>
+         </form>
+      </div>
+   </body>
+</html>
